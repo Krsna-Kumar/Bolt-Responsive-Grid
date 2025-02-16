@@ -3,20 +3,20 @@
     src: url(/fonts/Poppins/Poppins-VariableFont_wght.otf);
 }
 
-@font-face {
+/* @font-face {
     font-family: Inter;
     src: url(/fonts/Inter/InterVariable.ttf);
-}
+} */
 
 @font-face {
     font-family: babapro;
     src: url(/fonts/Babafont/BabaPro-Bold.ttf);
 }
 
-@font-face {
+/* @font-face {
     font-family: horizon;
     src: url(/fonts/horizon/Horizon.otf);
-}
+} */
 
 
 body {
@@ -42,7 +42,7 @@ h5 {font-size: 1.250rem; /* 20px */}
 small {font-size: 0.800rem; /* 12.8px */}
 
 .baba-font {font-family: babapro;}
-.horizon-font {font-family: horizon;}
+/* .horizon-font {font-family: horizon;} */
 
 a{
     font-size: 0.800rem;

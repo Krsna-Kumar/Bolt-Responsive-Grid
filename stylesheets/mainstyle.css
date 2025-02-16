@@ -128,19 +128,22 @@ body{
     line-height: 1.2;
 } 
 
-.i-rect > .text-side a {
+.i-rect > .text-side a,
+.i-sqr > .text-col a {
     display: inline-flex; /* Ensures text & icon stay on the same line */
     align-items: center;
     gap: 6px; 
     font-weight: 500;
 }
 
-.i-rect > .text-side a i {
+.i-rect > .text-side a i,
+.i-sqr > .text-col a i {
     font-size: 1.4em;
     transition: transform 0.3s ease; 
 }
 
-.i-rect > .text-side a:hover i {
+.i-rect > .text-side a:hover i,
+.i-sqr > .text-col a:hover i {
     transform: translateX(5px); 
 }
 
